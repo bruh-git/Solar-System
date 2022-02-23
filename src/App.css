@@ -1,3 +1,145 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100&family=Montserrat:ital,wght@0,300;1,100&display=swap') ;
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap') ;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url('./images/background.png');
+  background-size: cover;
+  color: white;
+  font-family: IBM Plex Mono , monospace;
+}
+
+h1 {
+  display: flex;
+  font-family: 'Press Start 2P' , cursive;
+  font-size: 3rem;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.missions-name, .planets-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.mission-card {
+  align-items: center;
+  backdrop-filter: blur(1px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1.5px gray solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  min-width: 20%;
+}
+
+.mission-card:hover {
+  box-shadow: rgba(235, 222, 222, 0.35) 0 2px 15px 0;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.container-mission-card, .container-planet-card {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.Mercúrio {
+  transition: 1s;
+  width: 2rem;
+}
+
+.Mercúrio:hover {
+  width: 15rem;
+}
+
+.Vênus {
+  transition: 1s;
+  width: 5rem;
+}
+
+.Vênus:hover {
+  width: 15rem;
+}
+
+.Terra {
+  transition: 1s;
+  width: 5rem;
+}
+
+.Terra:hover {
+  width: 15rem;
+}
+
+.Marte {
+  transition: 1s;
+  width: 4rem;
+}
+
+.Marte:hover {
+  width: 15rem;
+}
+
+.Júpiter {
+  transition: 1s;
+  width: 15rem;
+}
+
+.Júpiter:hover {
+  width: 19rem;
+}
+
+.Saturno {
+  transition: 1s;
+  width: 13rem;
+}
+
+.Saturno:hover {
+  width: 16rem;
+}
+
+.Urano {
+  transition: 1s;
+  width: 7rem;
+}
+
+.Urano:hover {
+  width: 15rem;
+}
+
+.Netuno {
+  transition: 1s;
+  width: 6rem;
+}
+
+.Netuno:hover {
+  width: 15rem;
+}
+
+h3 {
+  display: flex;
+  font-family: 'Press Start 2P' , cursive;
+  font-size: 15px;
+  justify-content: center;
+  padding: 5rem;
 }
